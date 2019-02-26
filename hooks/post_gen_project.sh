@@ -1,7 +1,7 @@
 #!/bin/sh
 
 function check_program() {
-    if [ "$(command -v $1)" == "" ]; then
+    if [ "$command -v $1" == "" ]; then
         echo -e "\e[0;33m"
         echo "*** $1 not found"
         echo -e "\e[0m"
